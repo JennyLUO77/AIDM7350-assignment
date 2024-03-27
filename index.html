@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <style>
+        h1, h2 {font-family: Sofia, cursive;}
+    </style>
+    <title>Photo book</title>
+</head>
+<body>
+    <div id="home">
+        <!-- here is the top of the web page -->
+        <div class="w3-top">
+            <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+                <a href="./index.html" class="w3-bar-item w3-button">My Photo Book</a>
+                <!-- Right-sided navbar links. Hide them on small screens -->
+                <div class="w3-right w3-hide-small">
+                    <a href="#about" class="w3-bar-item w3-button">About</a>
+                    <a href="#camera" class="w3-bar-item w3-button">Camera</a>
+                    <a href="#gallery" class="w3-bar-item w3-button">Gallery</a>
+                </div>
+            </div>
+        </div>
+        <!-- here is the main part -->
+        <div class="w3-content w3-cell-middle" style="width: 75%; max-width: 1080px;margin-top: 100px;">
+            <!-- about me card -->
+            <div class="w3-card-4 w3-padding animate__animated animate__fadeInUp" style="margin-top: 40px; display: flex;" id="about">
+                <div style="margin: 24px;">
+                    <h2>About me</h2>
+                    <p>Hi! I'm LUO Jinjin. A graduate student in AIDM from HKBU. Undergraduate is Digital Media Technology major in Interactive Design.</p>
+                    <p>UI designer (maybe), fan of coffee and film photography.</p>
+                    <p>For me, film is a special medium for carrying photographs. Unlike photographs taken directly from a digital camera, the special colours and graininess of film cannot be matched by digital, although film now also needs to be digitised for viewing.</p>
+                </div>
+                <img src="./img/profile.JPG" alt="profile" class="w3-circle" style="height: 160px;margin: 24px;">
+            </div>
+
+            <!-- about the cameras -->
+            <div class="w3-padding animate__animated animate__fadeInUp animate__delay-1s" style="margin-top: 20px;" id="camera">
+                <h2 class="w3-border-bottom w3-border-light-grey w3-padding-16">My cameras</h2>
+                <div class="w3-container w3-border-bottom w3-border-light-grey">
+                    <div style="display: flex;">
+                        <div style="margin-right: 20px;">
+                            <h3 class="w3-border-bottom w3-border-light-grey"> OLYMPUS XA2</h3>
+                            <p> It was introduced in 1980 as a stripped-down version of the XA. The Olympus XA2 features a four-element f/3.5 lens.XA2's exposure system favors wide depth-of-field, leaving the focus slider in the middle position generally results in in-focus shots. And since the slider slides into the middle position when the dust cover is closed.</p>
+                        </div> 
+                        <img src="./img/olympus-xa2-film-camera.jpeg" alt="olympus-xa2" class="w3-round" style="height: 180px;">
+                    </div>   
+                </div>
+
+                <div class="w3-container" style="margin-top: 20px;">
+                    <div style="display: flex;">
+                        <div style="margin-right: 20px;">
+                            <h3 class="w3-border-bottom w3-border-light-grey">OLYMPUS Trip 35</h3>
+                            <p>Trip's fantastic 40mm F/2.8 Zuiko lens delivers in spades. The lens is a front-focusing Tessar type lens, which means that it's very simple and very sharp, and it retains this sharpness edge to edge without chromatic aberration, spherical aberration, or any kind of distortion due to its simple optical formula and Olympus's masterful execution.</p>
+                        </div>
+                        <img src="./img/olympus-trip35.jpeg" alt="olympus-trip35" class="w3-round" style="height: 160px;">
+                    </div>
+                    <div style="margin-top: 40px; text-align: right;">
+                        <a href="https://casualphotophile.com/">camera information from >></a>
+                    </div>
+                    
+                </div>     
+            </div>
+            
+            <!-- photography -->
+            <div class="animate__animated animate__fadeInUp animate__delay-1s" id="gallery">
+                <h2 class="w3-border-bottom w3-border-light-grey w3-padding-16">Gallery</h2>
+                <div style="margin-top: 20px;">
+                    <h3>Colour film</h3>
+                      <!-- First Photo Grid-->
+                    <div class="w3-row-padding">
+                        <!-- Sai Wan Swimming Shed -->
+                        <div class="w3-third w3-container w3-margin-bottom">
+                            <a href="https://uk.trip.com/travel-guide/attraction/hong-kong/sai-wan-swimming-shed-38638654/">
+                                <img src="./img/color_films/beach.JPG" alt="Norway" style="width:100%" class="w3-hover-opacity">
+                            </a>
+                            <div class="w3-container w3-white">
+                                <p><b>Sai Wan Swimming Shed</b></p>
+                                <p>The Sai Wan Swimming Shed was a place for citizens to swim in the 1960s and 1970s. A long wooden bridge, some bamboo sheds, and a simple changing room can be said to be the public swimming pool of that year. </p>
+                            </div>
+                        </div>
+                        <!-- Star Ferry -->
+                        <div class="w3-third w3-container w3-margin-bottom">
+                            <a href="https://www.discoverhongkong.com/eng/explore/attractions/sailing-icon-hong-kong-s-star-ferry.html">
+                                <img src="./img/color_films/star_ferry.JPG" alt="Norway" style="width:100%" class="w3-hover-opacity">
+                            </a>
+                            <div class="w3-container w3-white">
+                                <p><b>Star Ferry</b></p>
+                                <p>The Star Ferry has voyaged between the Kowloon Peninsula's southern tip to Hong Kong Island for more than 120 years.</p>
+                            </div>
+                        </div>
+                        <!-- Casavant Opus 700 -->
+                        <div class="w3-third w3-container">
+                            <a href="https://pipeorgandatabase.org/instruments/44275">
+                                <img src="./img/color_films/organ.JPG" alt="Norway" style="width:100%" class="w3-hover-opacity">
+                            </a>
+                            <div class="w3-container w3-white">
+                                <p><b>Casavant Opus 700</b></p>
+                                <p>The biggest organ in Asian. Collected at Xiamen Gulangyu Organ Art Centre, Xiamen, China</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style="margin-top: 20px;">
+                    <h3>Black & white film</h3>
+                    <!-- Second Photo Grid-->
+                    <div class="w3-row-padding">
+                        <div class="w3-third w3-container w3-margin-bottom">
+                            <img src="./img/b&w_films/da_guan.JPG" alt="Norway" style="width:100%" class="w3-hover-opacity">
+                            <div class="w3-container w3-white">
+                                <p><b>Corner of Tai Kwun</b></p>
+                                <p>the former Central Police Station, Central Magistracy and Victoria Prison - transforming the historic site into an accessible world-class centre for arts, culture and heritage.</p>
+                            </div>
+                        </div>
+
+                        <div class="w3-third w3-container w3-margin-bottom">
+                            <a href="https://www.archdaily.cn/cn/1009437/shen-zhen-yue-hai-cheng-star-jin-pi-fang-yuan-jin-wei-pi-jiu-han-gong-ye-yi-cun-shi-nei-bu-fen-zhong-dian-gong-gong-kong-jian-gai-zao-she-ji-studio-10">
+                                <img src="./img/b&w_films/light.JPG" alt="Norway" style="width:100%" class="w3-hover-opacity">
+                            </a>
+                            <div class="w3-container w3-white">
+                                <p><b>Light</b></p>
+                                <p>Starbucks in Golden Beer Shop. As the city develops, the brewery's industrial buildings are transformed into cultural landmarks that continue to carry and perpetuate the city's collective memory.</p>
+                            </div>
+                        </div>
+
+                        <div class="w3-third w3-container">
+                            <a href="https://www.landmark.hk/tc/visit/around-central/pottinger-street">
+                                <img src="./img/b&w_films/christmas.JPG" alt="Norway" style="width:100%" class="w3-hover-opacity">
+                            </a>
+                            <div class="w3-container w3-white">
+                                <p><b>Stone Slabs Street</b></p>
+                                <p>he original section was built on a steep slope, and is composed of series of granite steps. The English name derives from Hong Kong's first governor, Sir Henry Pottinger.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>      
+            </div>
+        </div>
+ 
+        <footer class="w3-padding w3-border-top w3-border-light-grey" style="margin-top: 60px;">
+            <div style="text-align: center; color: gray;">
+                <!-- <p>statement</p> -->
+                <p>All photos in gallery were shot by myself.</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
